@@ -1,4 +1,3 @@
-<!-- 儲存於 resources/views/child.blade.php -->
 @extends('layouts.master')
 
 @section('title','首頁')
@@ -17,7 +16,6 @@
     </div>
   </div>
 </header>
-
 
 @section('content')
 <!-- Main Content -->
@@ -84,6 +82,4 @@
     </div>
   </div>
 </div>
-
-<hr>
 @endsection
