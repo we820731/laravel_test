@@ -39,7 +39,7 @@ return [
             'prefix' => '',
         ],
 
-        'mysql' => [ //從eve檔讀取環境變數
+        'mysql' => [ //從env檔讀取環境變數
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
